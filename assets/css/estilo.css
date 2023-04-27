@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* no puedo colocar en blanco las letras del navbar probe con todos los codigos y nada ruego pensar en mi mente atrofiada zorry profe */
 .navbar-nav {
     padding-left: auto;
 }
@@ -13,9 +13,19 @@ html {
     width: 100%;
     background-color: rgb0;
     z-index: 2;
+    color: #fff;
 }
-  
-  .carousel {
+
+.navbar-nav a {
+  color: white !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+.carousel {
     position: relative;
     z-index: 1;
 }
