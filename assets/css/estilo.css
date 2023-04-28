@@ -36,9 +36,9 @@ html {
     background-color: black;
 }
 
-  .quienes-somos h1{
+  .container h1{
     color: white;
-    margin-left: 450px;
+    text-align:  center;
     padding-top: 50px;
 }
 
@@ -76,7 +76,7 @@ html {
 
 .row h1{
   color: white;
-  padding-left: 450px;
+  text-align: center;
 }
 
 .card{
@@ -158,5 +158,13 @@ footer {
   margin: 0;
 }
 
+footer {
+  background-color: rgb(17, 194, 225);
+}
 
-
+.fa{
+  width: 40px;
+  height: 40px;
+  float: left;
+  color: #fff;
+}
